@@ -1,0 +1,34 @@
+[{
+  "name": "Up & Running Quiz",
+  "code": "haxorz",
+  "tests": [
+    {
+      "description": "Add code to main.html",
+      "definition": {
+        "waitForEvent": "name-exists",
+        "exists": true
+      }
+    },
+    {
+      "description": "Typing name in textbox appears in tag.",
+      "definition": {
+        "waitForEvent": "textbox-name",
+        "exists": true
+      }
+    },
+    {
+      "description": "Text has been made orange.",
+      "definition": {
+        "waitForEvent": "checked-orange",
+        "exists": true
+      }
+    },
+    {
+      "description": "Added strikethrough to text.",
+      "definition": {
+        "waitForEvent": "checked-strikethrough",
+        "exists": true
+      }
+    }
+  ]
+}]

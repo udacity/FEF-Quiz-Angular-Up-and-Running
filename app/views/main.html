@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-xs-8">
+    <div class="tag">
+      <div class="tag-header">
+        Hello, my name is
+      </div>
+
+      <h1 id="the-tag" class="tag-name" ng-class="{orange: orange, strikethrough: strikethrough, fancy: fancy}">
+        <!-- Enter code on the line below -->
+
+        <span ng-if="excited">!</span>
+      </h1>
+
+      <div class="tag-footer"></div>
+    </div>
+  </div>
+
+  <div class="col-xs-4">
+    <p>
+      <input id="name-yoself" class="form-control" type="text" ng-model="main.name" placeholder="Enter name here">
+    </p>
+
+    <label>
+     <input id="checkbox-orange" type="checkbox" ng-model="orange"> Orange
+    </label><br>
+    <label>
+     <input id="checkbox-strikethrough" type="checkbox" ng-model="strikethrough"> Strikethrough
+    </label><br>
+    <label>
+     <input id="checkbox-excited" type="checkbox" ng-model="excited"> Excited
+    </label><br>
+    <label>
+     <input id="checkbox-fancy" type="checkbox" ng-model="fancy"> Fancy
+    </label><br>
+  </div>
+</div>
