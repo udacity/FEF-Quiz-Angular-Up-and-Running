@@ -13,11 +13,11 @@ Make sure you have the following software installed:
 
 ## Getting Set Up
 
-1. clone this repo
-* `cd` into the newly cloned project
-* install NPM dependencies via `npm install`
-* install Bower dependencies via `bower install`
+1. Clone this repo
+2. `cd` into the newly cloned project
+3. Install NPM dependencies via `npm install`
+4. Install Bower dependencies via `bower install`
 
 ## View the app
 
-* on the terminal, run `grunt serve`
+* On the terminal, run `grunt serve`. If you run into issues with this command, make sure that Grunt's command line interface is installed on your machine (`npm install -g grunt-cli`), then try again.
